@@ -8,16 +8,16 @@ using Case_Study_1;// Reference the classes from CaseStudy2 namespace
 
 namespace Case_Study_3
 {
-    public interface IUserInterface
-    {
-        void ShowFirstScreen();
-        void ShowStudentScreen();
-        void ShowAdminScreen();
-        void ShowAllStudentsScreen();
-        void ShowStudentRegistrationScreen();
-        void IntroduceNewCourseScreen();
-        void ShowAllCoursesScreen();
-    }
+    //public interface IUserInterface
+    //{
+    //    void ShowFirstScreen();
+    //    void ShowStudentScreen();
+    //    void ShowAdminScreen();
+    //    void ShowAllStudentsScreen();
+    //    void ShowStudentRegistrationScreen();
+    //    void IntroduceNewCourseScreen();
+    //    void ShowAllCoursesScreen();
+    //}
 
     public class UserInterface : IUserInterface
     {
