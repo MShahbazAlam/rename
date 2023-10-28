@@ -33,6 +33,7 @@ namespace Case_Study_1
         public static List<Student> students = new List<Student>(); 
         static void Main(string[] args)
         {
+           
             // Scenario1();
             //Scenario2();
             Console.WriteLine("Welcome to Case Study 1!");
@@ -126,7 +127,7 @@ namespace Case_Study_1
                 Console.Write($"Enter Student {i + 1} Date of Birth (yyyy-MM-dd): ");
                 DateTime studentDob = DateTime.Parse(Console.ReadLine());
 
-                // Create the Student object
+                
                 Student student = new Student(studentId, studentName, studentDob);
                 App.students.Add(student); // Add the student to the shared list
 
